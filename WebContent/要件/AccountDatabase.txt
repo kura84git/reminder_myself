@@ -1,0 +1,8 @@
+アカウント情報を格納するテーブル
+
+create database reminder;
+
+use reminder;
+
+create table account(user_id varchar(50) primary key, pass varchar(50) not null); 
+
